@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios</title>
+	<style>
+		body{
+			background-color: #85c1e9;
+			font-family: arial;
+		}
+		table{
+			border: 1px solid black;
+			width: 75%;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Inscripciones a la carrera Potosina (Motocicletas)</h1>
+	<h2 style="text-align: center;">Registro online</h2>
+	<form action="" method="post" enctype="text/plain">
+		<fieldset>
+			<legend>Informacion general del participante</legend>
+			<table>
+				<tr>
+				<td><legend for="Particimante">Nombre del participante:</legend>
+				<input type="text" name="participante" id="participante" placeholder="Nombre del participante" size="25" maxlength="30" title="Nombre del participante" required><br/></td>
+
+				<td><legend for="apellidoP">Apellido parteno</legend>
+				<input type="text" name="apellidoP" id="apellidoP" placeholder="Apellido parteno" size="25" maxlength="30" title="Apellido parteno" required><br/></td>
+
+				<td><legend for="apellidoM">Apellido materno</legend>
+				<input type="text" name="apellidoM" id="apellidoM" placeholder="Apellido materno" size="25" maxlength="30" title="Apellido materno" required><br/></td>
+				</tr>
+
+				<tr>
+				<td><label for="edad">Eded:</label>
+				<input type="number" name="edad" id="edad"><br/></td>
+
+				<td><h3>Indica tu género</h3>
+				<input type="radio" name="genero" id="genero">
+				<label for="genero">Femenino</label><br/>
+
+				<input type="radio" name="genero" id="genero">
+				<label for="genero">Marculino</label><br/></td>
+
+				<td><h3>Categoria</h3>
+				<select name="cate" id="cate" size="2">
+					<option value="1">Alto cilindraje(A partir de 750 cc)</option>
+					<option value="2">Media cilindrada(300 cc a 750 cc)</option>
+					<option value="3">Baja cilindrada(250 cc o inferiores)</option>
+					<option value="4">Automatica</option>
+				</select><br/><br/></td>
+				</tr>
+
+				<tr>
+				<td><label for="fechanac">Fecha de registro:</label>
+				<input type="date" name="fechanac" id="fechanac"><br/></td>
+
+				<td><label for="hora">Hora de registro:</label>
+				<input type="time" name="hora" id="hora"><br/></td>
+			</tr>
+		</table>
+		</fieldset>
+	</form>
+	<form action="" method="post" enctype="text/plain">
+		<fieldset>
+			<legend>Informacion de la motocicleta</legend>
+			<table>
+				<tr>
+				<td><legend>Motor</legend>
+				<input type="text" name="moto" id="moto"></td>
+
+				<td><legend for="gasolina">Capasidad del tanque (litros)</legend>
+				<input type="number" name="gasolina" id="gasolina"></td>
+
+				<td><legend for="peso">Peso en seco (KG)</legend>
+				<input type="number" name="peso" id="peso"></td>
+				</tr>
+
+				<tr>
+				<td><h3>Tablero</h3>
+				<input type="radio" name="luce" id="luce">
+				<label for="luce">Analógico</label><br/>
+
+				<input type="radio" name="luce" id="luce">
+				<label for="luce">Digital</label><br/></td>
+
+				<td><h3>Caja de velocidades</h3>
+				<select name="vel" id="vel" size="2">
+				<optgroup label="cuantos cambios">
+					<option value="1">4 cambios</option>
+					<option value="2">5 cambios</option>
+					<option value="3">6 cambios</option>
+					<option value="4">Automatica</option>
+				</optgroup>
+				</select><br/><br/></td>
+
+				<td>
+				<label for="sitioweb">Correo electronico:</label>
+				<input type="url" name="sitioweb" id="sitioweb"><br/></td>
+				</tr>
+
+			<tr>
+			<td><input type="checkbox" name="termi" id="termi" checked>
+				<label for="termi">Acepto términos y condiciones</label></td>
+			</tr>
+			<tr>
+			<td><input type="submit" name="enviar" id="enviar" value="Enviar datos">
+			<input type="reset" name="borrar" id="borrar" value="borrar datos"></td>
+			</tr>
+			</table>
+		</fieldset>
+	</form>
+	<h4 style="text-align: right;">Ferbrero 2025,SLP</h4>
+</body>
+</html>
