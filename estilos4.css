@@ -1,0 +1,42 @@
+body{
+	background-color: black;
+	color: white;
+}
+h1{
+	text-align: center;
+}
+img{
+	width: 150px; 
+	cursor: pointer;
+	justify-content: center;" 
+}
+ol{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background: red;
+	overflow: hidden;
+}
+li a{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	border-right: 1px solid navy;
+}
+li a:visited{
+	color: blue;
+}
+li a:hover{
+	background-color: #B0C4DE;
+	color: #A52A2A;
+}
+footer{
+	
+	background-color: red;
+	color: white;
+}
