@@ -1,6 +1,6 @@
 header{
 	width: 80%;
-	background-color: indianred;
+	background-color: #f1948a ;
 	margin: auto;
 	text-align: center;
 }
@@ -9,7 +9,7 @@ form{
 
 	width: 80%;
 	text-align: center;
-	background-color: blue;
+	background-color: #85c1e9;
 	margin: auto;
 	display: block;
 
